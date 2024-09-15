@@ -1,0 +1,86 @@
+/* Custom CSS */
+body {
+    background-color: #e9ecef; /* Light gray background for a clean look */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background-color: #ffffff; /* White background for the main container */
+    border-radius: 12px; /* Rounded corners for a softer look */
+    box-shadow: 0 6px 12px rgba(20, 20, 20, 0.1); /* Enhanced shadow for depth */
+    padding: 30px;
+    max-width: 600px; /* Limit the width for a more centered look */
+    margin: 0 auto; /* Center container horizontally */
+}
+
+h4 {
+    color: #343a40; /* Darker gray for text */
+    font-weight: 600; /* Slightly bolder text for emphasis */
+}
+
+.game-section {
+    background-color: #f8f9fa; /* Light background for the game section */
+    border-radius: 8px; /* Rounded corners for the section */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.btn-outline-primary {
+    border-color: #007bff; /* Blue border color */
+    color: #007bff; /* Blue text color */
+    background-color: #ffffff; /* White background for buttons */
+    border-radius: 50%; /* Circular buttons */
+    width: 100px; /* Button width */
+    height: 100px; /* Button height */
+    padding: 0; /* Remove padding */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: #ffffff; /* White text color on hover */
+    border-color: #007bff; /* Matching border color on hover */
+}
+
+.img-fluid {
+    max-width: 80px; /* Logo size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.text-center p {
+    color: #495057; /* Medium gray text for better readability */
+    font-size: 18px; /* Slightly larger font size */
+    margin: 10px 0; /* Spacing around paragraphs */
+}
+
+.text-center {
+    margin-top: 20px; /* Space above the text */
+}
+
+.btn-success {
+    background-color: #28a745; /* Green background for the Start button */
+    border-color: #28a745; /* Matching border color */
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Darker green for hover effect */
+    border-color: #1e7e34; /* Darker border color for hover */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Red background for the Restart button */
+    border-color: #dc3545; /* Matching border color */
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Darker red for hover effect */
+    border-color: #bd2130; /* Darker border color for hover */
+}
+
+#round_info {
+    font-weight: 500; /* Medium bold for round information */
+    color: #007bff; /* Blue text for emphasis */
+}
